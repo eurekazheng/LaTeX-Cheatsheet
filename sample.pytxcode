@@ -1,0 +1,60 @@
+=>PYTHONTEX#py#default#default#0#code#####314#
+from math import sin, cos, pi
+
+R1 = 0.7
+R2 = 2
+R3 = 3/8 * (R2 - R1)
+coord = lambda R, a: (R * cos(a), R * sin(a))
+=>PYTHONTEX#py#default#default#1#i#####338#
+f'\draw[a1a2,fill=a1a2!15,even odd rule] (0,0) circle ({R2}) circle ({R1});'
+=>PYTHONTEX#py#default#default#2#i#####339#
+f'\draw[a1a2,->] (0,0) -- {coord(R1,pi/8)} node[above] {"{$|a_1 - a_2|$}"};'
+=>PYTHONTEX#py#default#default#3#i#####340#
+f'\draw[a1a2,->] (0,0) -- {coord(R2,-pi/4)} node[below] {"{$a_1 + a_2$}"};'
+=>PYTHONTEX#py#default#default#4#i#####345#
+f'\draw[dex,fill=dex!15,opacity=0.8,even odd rule] (0,0) circle ({R2-R3}) circle ({R1+R3});'
+=>PYTHONTEX#py#default#default#5#i#####346#
+f'\draw[dex,->] (0,0) -- {coord(R1+R3,7*pi/8)} node[above] {"{$|a_1 - a_2| + a_3$}"};'
+=>PYTHONTEX#py#default#default#6#i#####347#
+f'\draw[dex,->] (0,0) -- {coord(R2-R3,5*pi/8)} node[above] {"{$a_1 + a_2 - a_3$}"};'
+=>PYTHONTEX#py#default#default#7#i#####352#
+f'\coordinate (c1) at {coord(R1+R3,-3*pi/4)};'
+=>PYTHONTEX#py#default#default#8#i#####353#
+f'\draw[a3] (c1) circle ({R3});'
+=>PYTHONTEX#py#default#default#9#i#####354#
+f'\draw[fill=end] (c1) circle (0.04);'
+=>PYTHONTEX#py#default#default#10#i#####355#
+f'\draw[a3,->] (c1) -- {coord(R1,-3*pi/4)} node[above] {"{$a_3$}"};'
+=>PYTHONTEX#py#default#default#11#i#####359#
+f'\coordinate (c2) at {coord(R2-R3,-pi/2)};'
+=>PYTHONTEX#py#default#default#12#i#####360#
+f'\draw[a3] (c2) circle ({R3});'
+=>PYTHONTEX#py#default#default#13#i#####361#
+f'\draw[fill=end] (c2) circle (0.04);'
+=>PYTHONTEX#py#default#default#14#i#####362#
+f'\draw[a3,->] (c2) -- {coord(R2,-pi/2)} node[below] {"{$a_3$}"};'
+=>PYTHONTEX:SETTINGS#
+version=0.17
+outputdir=pythontex-files-sample
+workingdir=.
+workingdirset=false
+gobble=none
+rerun=default
+hashdependencies=default
+makestderr=false
+stderrfilename=full
+keeptemps=none
+pyfuture=default
+pyconfuture=none
+pygments=true
+pygglobal=:GLOBAL||
+fvextfile=-1
+pyconbanner=none
+pyconfilename=stdin
+depythontex=false
+pygfamily=py|python3|
+pygfamily=pycon|pycon|
+pygfamily=sympy|python3|
+pygfamily=sympycon|pycon|
+pygfamily=pylab|python3|
+pygfamily=pylabcon|pycon|

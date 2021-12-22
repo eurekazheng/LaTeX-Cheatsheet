@@ -1,0 +1,44 @@
+%Last time of file creation:  1640149066.0258205
+
+\pytx@SVMCR{pytx@MCR@py@default@default@1}
+\draw[a1a2,fill=a1a2!15,even odd rule] (0,0) circle (2) circle (0.7);\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@2}
+\draw[a1a2,->] (0,0) -- (0.6467156727579007, 0.26787840265556284) node[above] {$|a_1 - a_2|$};\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@3}
+\draw[a1a2,->] (0,0) -- (1.4142135623730951, -1.4142135623730951) node[below] {$a_1 + a_2$};\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@4}
+\draw[dex,fill=dex!15,opacity=0.8,even odd rule] (0,0) circle (1.5125) circle (1.1875);\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@5}
+\draw[dex,->] (0,0) -- (-1.097106944857153, 0.45443657593354425) node[above] {$|a_1 - a_2| + a_3$};\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@6}
+\draw[dex,->] (0,0) -- (-0.5788086914521982, 1.3973677929233213) node[above] {$a_1 + a_2 - a_3$};\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@7}
+\coordinate (c1) at (-0.8396893026590251, -0.8396893026590252);\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@8}
+\draw[a3] (c1) circle (0.48750000000000004);\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@9}
+\draw[fill=end] (c1) circle (0.04);\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@10}
+\draw[a3,->] (c1) -- (-0.4949747468305832, -0.4949747468305833) node[above] {$a_3$};\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@11}
+\coordinate (c2) at (9.261391418551858e-17, -1.5125);\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@12}
+\draw[a3] (c2) circle (0.48750000000000004);\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@13}
+\draw[fill=end] (c2) circle (0.04);\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@14}
+\draw[a3,->] (c2) -- (1.2246467991473532e-16, -2.0) node[below] {$a_3$};\endpytx@SVMCR
+

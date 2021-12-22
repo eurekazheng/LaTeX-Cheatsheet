@@ -1,0 +1,66 @@
+\begin{pycode}
+from math import sin, cos, pi
+
+R1 = 0.7
+R2 = 2
+R3 = 3/8 * (R2 - R1)
+coord = lambda R, a: (R * cos(a), R * sin(a))
+\end{pycode}
+		
+\begin{figure}[H]
+\capstart
+\centering
+\begin{tikzpicture}[scale=2]
+	% colors
+	\colorlet{a1a2}{cyan}
+	\colorlet{a3}{violet}
+	\colorlet{dex}{magenta}
+	\colorlet{end}{red}
+	
+	% styles
+	\tikzstyle{info box}=[rounded corners,fill=red!10,inner sep=2ex]
+	
+	% link1 + link2 reachable workspace
+	\begin{scope}
+		\py{f'\draw[a1a2,fill=a1a2!15,even odd rule] (0,0) circle ({R2}) circle ({R1});'}
+		\py{f'\draw[a1a2,->] (0,0) -- {coord(R1,pi/8)} node[above] {"{$|a_1 - a_2|$}"};'}
+		\py{f'\draw[a1a2,->] (0,0) -- {coord(R2,-pi/4)} node[below] {"{$a_1 + a_2$}"};'}
+	\end{scope}
+
+	% dexterous workspace
+	\begin{scope}
+		\py{f'\draw[dex,fill=dex!15,opacity=0.8,even odd rule] (0,0) circle ({R2-R3}) circle ({R1+R3});'}
+		\py{f'\draw[dex,->] (0,0) -- {coord(R1+R3,7*pi/8)} node[above] {"{$|a_1 - a_2| + a_3$}"};'}
+		\py{f'\draw[dex,->] (0,0) -- {coord(R2-R3,5*pi/8)} node[above] {"{$a_1 + a_2 - a_3$}"};'}
+	\end{scope}
+
+	% last joint circles
+	\begin{scope}
+		\py{f'\coordinate (c1) at {coord(R1+R3,-3*pi/4)};'}
+		\py{f'\draw[a3] (c1) circle ({R3});'}
+		\py{f'\draw[fill=end] (c1) circle (0.04);'}
+		\py{f'\draw[a3,->] (c1) -- {coord(R1,-3*pi/4)} node[above] {"{$a_3$}"};'}
+	\end{scope}
+	
+	\begin{scope}
+		\py{f'\coordinate (c2) at {coord(R2-R3,-pi/2)};'}
+		\py{f'\draw[a3] (c2) circle ({R3});'}
+		\py{f'\draw[fill=end] (c2) circle (0.04);'}
+		\py{f'\draw[a3,->] (c2) -- {coord(R2,-pi/2)} node[below] {"{$a_3$}"};'}
+	\end{scope}
+				
+	% coordinate frames
+	\begin{scope}
+		\draw[->] (0,0) -- (0.25,0) node[right] {$x_0$};
+		\draw[->] (0,0) -- (0,0.25) node[above] {$y_0$};
+	\end{scope}
+
+	% text
+	\draw[xshift=70] node [right,text width=7cm,style=info box]
+	{
+		{\color{dex}Dexterous workspace of the arm} is the region of end effectors. If we want the last joint to point to the end effector from any direction, the {\color{a3}possible locations of the last joint} (i.e. the {\color{a3}violet circle} with radius $a_3$ centered at the {\color{end}end effector}, two of which Figure \ref{fig:1} show as the extreme cases) should be \textit{fully included} in the {\color{a1a2}reachable workspace of link 1 + link 2}. The dexterous workspace therefore should be a ring with inner radius $|a_1 - a_2| + a_3$ and outer radius $a_1 + a_2 - a_3$ \textit{provided that} $a_1 + a_2 - a_3 \geq |a_1 - a_2| + a_3$, i.e. $a_3 \leq (a_1 + a_2 - |a_1 - a_2|) / 2$.
+	};
+\end{tikzpicture}
+\caption{Dexterous workspace: $a_3 \leq (a_1 + a_2 - |a_1 - a_2|) / 2$} 
+\label{fig:1}
+\end{figure}
