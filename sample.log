@@ -1,35 +1,38 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/W32TeX)  (format=lualatex 2021.12.21)  22 DEC 2021 13:34
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021/W32TeX)  (format=lualatex 2022.3.18)  25 JUL 2022 01:03
  system commands enabled.
 **sample.tex
 (./sample.tex
-LaTeX2e <2020-10-01> patch level 4
-Lua module: luaotfload 2021-01-08 3.17 Lua based OpenType font support
-Lua module: lualibs 2020-12-30 2.73 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2020-12-30 2.73 ConTeXt Lua libraries -- extended c
+LaTeX2e <2021-11-15> patch level 1
+Lua module: luaotfload 2022-02-27 3.20 Lua based OpenType font support
+Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
 ollection.
-luaotfload | conf : Root cache directory is "C:/Users/eurekazheng/.texlive2021/t
-exmf-var/luatex-cache/generic/names".
-luaotfload | init : Loading fontloader "fontloader-2021-01-07.lua" from kpse-res
-olved path "d:/texlive/2021/texmf-dist/tex/luatex/luaotfload/fontloader-2021-01-
-07.lua".
+luaotfload | conf : Root cache directory is "C:/texlive/2021/texmf-var/luatex-ca
+che/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-02-24.lua" from kpse-res
+olved path "c:/texlive/2021/texmf-dist/tex/luatex/luaotfload/fontloader-2022-02-
+24.lua".
 Lua-only attribute luaotfload@noligature = 1
-Lua-only attribute luaotfload@syllabe = 2
-luaotfload | init : Context OpenType loader version 0x1.8e76c8b439581p+1
+luaotfload | init : Context OpenType loader version 3.119
 Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
 Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
 Inserting `luaotfload.define_font' at position 1 in `define_font'.
-Lua-only attribute luaotfload_color_attribute = 3
-luaotfload | conf : Root cache directory is "C:/Users/eurekazheng/.texlive2021/t
-exmf-var/luatex-cache/generic/names".
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/texlive/2021/texmf-var/luatex-ca
+che/generic/names".
 Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
 Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' at position 1 in `glyph_stream_provider'
+.
 Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
 er'.
 Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
 Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
 Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
 Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
 Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
 font'.
 Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
@@ -42,219 +45,217 @@ Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
-. L3 programming layer <2021-02-18>
-(d:/texlive/2021/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(d:/texlive/2021/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from C:/Users/eurekazheng/.texlive2
-021/texmf-var/luatex-cache/generic/names/luaotfload-names.luc)
-\c@part=\count175
-\c@section=\count176
-\c@subsection=\count177
-\c@subsubsection=\count178
-\c@paragraph=\count179
-\c@subparagraph=\count180
-\c@figure=\count181
-\c@table=\count182
+. L3 programming layer <2022-02-24>
+Inserting `tracingstacklevels' at position 1 in `input_level_string'.
+(c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(c:/texlive/2021/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/texlive/2021/texmf-var/luat
+ex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen138
+\bibindent=\dimen137
 )
-(d:/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.sty
-(d:/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-02-18 L3 programming layer (loader) 
+(c:/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.sty
+(c:/texlive/2021/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(c:/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
 
-(d:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
-File: l3backend-luatex.def 2021-03-18 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count183
-\l__pdf_internal_box=\box47
+(c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2022-02-07 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count191
+\l__pdf_internal_box=\box50
 ))
-(d:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(d:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
-(d:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
-Package: lipsum 2021-03-03 v2.3 150 paragraphs of Lorem Ipsum dummy text
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count192
+\l__lipsum_a_int=\count193
+\l__lipsum_b_int=\count194
 
-(d:/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
-File: lipsum.ltd.tex 2021-03-03 v2.3 The Lorem ipsum dummy text
-))
-(d:/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
+(c:/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(d:/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+(c:/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
+\KV@toks@=\toks16
 )
-(d:/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
-(d:/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+(c:/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(d:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: luatex.def on input line 105.
+Package graphics Info: Driver file: luatex.def on input line 107.
 
-(d:/texlive/2021/texmf-dist/tex/latex/graphics-def/luatex.def
-File: luatex.def 2020/10/05 v1.2a Graphics/color driver for luatex
+(c:/texlive/2021/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2021/06/01 v1.2c Graphics/color driver for luatex
 ))
-\Gin@req@height=\dimen139
-\Gin@req@width=\dimen140
+\Gin@req@height=\dimen138
+\Gin@req@width=\dimen139
 )
-(d:/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+(c:/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
 
-(d:/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+(c:/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/02/28 v3.6a Customizing captions (AR)
 
-(d:/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+(c:/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/02/28 v2.3a caption3 kernel (AR)
+\caption@tempdima=\dimen140
 \captionmargin=\dimen141
-\captionmargin@=\dimen142
-\captionwidth=\dimen143
-\caption@tempdima=\dimen144
+\caption@leftmargin=\dimen142
+\caption@rightmargin=\dimen143
+\caption@width=\dimen144
 \caption@indent=\dimen145
 \caption@parindent=\dimen146
 \caption@hangindent=\dimen147
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count184
-\c@continuedfloat=\count185
+\c@caption@flags=\count195
+\c@continuedfloat=\count196
 )
-\c@subfigure=\count186
-\c@subtable=\count187
+\c@subfigure=\count197
+\c@subtable=\count198
 )
-(d:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+(c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
 
-(d:/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+(c:/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(d:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+(c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(c:/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(d:/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(c:/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks16
+\pdftexcmds@toks=\toks17
 )
-(d:/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+(c:/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-(d:/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+(c:/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(c:/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(d:/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty
+(c:/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(d:/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+(c:/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(d:/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
+(c:/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(d:/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(c:/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen148
-\Hy@linkcounter=\count188
-\Hy@pagecounter=\count189
+\Hy@linkcounter=\count199
+\Hy@pagecounter=\count266
 
-(d:/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+(c:/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
 )
-(d:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
-File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
-nguages
-)
-(d:/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
+(c:/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(d:/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+(c:/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count190
+\Hy@SavedSpaceFactor=\count267
 
-(d:/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+(c:/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Hyper figures OFF on input line 4192.
-Package hyperref Info: Link nesting OFF on input line 4197.
-Package hyperref Info: Hyper index ON on input line 4200.
-Package hyperref Info: Plain pages OFF on input line 4207.
-Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count191
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count268
 
-(d:/texlive/2021/texmf-dist/tex/latex/url/url.sty
+(c:/texlive/2021/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4804.
+LaTeX Info: Redefining \url on input line 4749.
 \XeTeXLinkMargin=\dimen149
 
-(d:/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
+(c:/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(d:/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+(c:/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count192
+\Fld@menulength=\count269
 \Field@Width=\dimen150
 \Fld@charsize=\dimen151
-Package hyperref Info: Hyper figures OFF on input line 6075.
-Package hyperref Info: Link nesting OFF on input line 6080.
-Package hyperref Info: Hyper index ON on input line 6083.
-Package hyperref Info: backreferencing OFF on input line 6090.
-Package hyperref Info: Link coloring OFF on input line 6095.
-Package hyperref Info: Link coloring with OCG OFF on input line 6100.
-Package hyperref Info: PDF/A mode OFF on input line 6105.
-LaTeX Info: Redefining \ref on input line 6145.
-LaTeX Info: Redefining \pageref on input line 6149.
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
 
-(d:/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
-ge
-with kernel methods
+(c:/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
 )
-\Hy@abspage=\count193
-\c@Item=\count194
-\c@Hfootnote=\count195
+\Hy@abspage=\count270
+\c@Item=\count271
+\c@Hfootnote=\count272
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
-(d:/texlive/2021/texmf-dist/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2021-02-27 v7.00k Hyperref driver for luaTeX
+(c:/texlive/2021/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2022-02-21 v7.00n Hyperref driver for luaTeX
 
-(d:/texlive/2021/texmf-dist/tex/generic/stringenc/stringenc.sty
+(c:/texlive/2021/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-(d:/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
-e
+(c:/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
 with kernel methods
 )
-\Fld@listcount=\count196
-\c@bookmark@seq@number=\count197
+\Fld@listcount=\count273
+\c@bookmark@seq@number=\count274
 
-(d:/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(c:/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(d:/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+(c:/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -264,40 +265,40 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 15.
 
-(d:/texlive/2021/texmf-dist/tex/latex/cprotect/cprotect.sty
+(c:/texlive/2021/texmf-dist/tex/latex/cprotect/cprotect.sty
 Package: cprotect 2011/01/27 v1.0e (Bruno Le Floch)
 
-(d:/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+(c:/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(d:/texlive/2021/texmf-dist/tex/latex/bigfoot/suffix.sty
+(c:/texlive/2021/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
 )
 \CPT@WriteOut=\write3
-\c@CPT@WriteCount=\count198
-\c@CPT@numB=\count199
-\CPT@commandatend@toks=\toks17
+\c@CPT@WriteCount=\count275
+\c@CPT@numB=\count276
+\CPT@commandatend@toks=\toks18
 )
-(d:/texlive/2021/texmf-dist/tex/latex/float/float.sty
+(c:/texlive/2021/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count266
-\float@exts=\toks18
-\float@box=\box48
-\@float@everytoks=\toks19
-\@floatcapt=\box49
+\c@float@type=\count277
+\float@exts=\toks19
+\float@box=\box51
+\@float@everytoks=\toks20
+\@floatcapt=\box52
 )
-(d:/texlive/2021/texmf-dist/tex/latex/oberdiek/hypcap.sty
+(c:/texlive/2021/texmf-dist/tex/latex/oberdiek/hypcap.sty
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
 )
-(d:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+(c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(d:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+(c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count267
-\Gm@cntv=\count268
-\c@Gm@tempcnt=\count269
+\Gm@cnth=\count278
+\Gm@cntv=\count279
+\c@Gm@tempcnt=\count280
 \Gm@bindingoffset=\dimen152
 \Gm@wd@mp=\dimen153
 \Gm@odd@mp=\dimen154
@@ -306,7 +307,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen157
 \Gm@layouthoffset=\dimen158
 \Gm@layoutvoffset=\dimen159
-\Gm@dimlist=\toks20
+\Gm@dimlist=\toks21
 )
 
 Package geometry Warning: Over-specification in `h'-direction.
@@ -316,99 +317,102 @@ Package geometry Warning: Over-specification in `h'-direction.
 Package geometry Warning: Over-specification in `v'-direction.
     `height' (676.04005pt) is ignored.
 
-(d:/texlive/2021/texmf-dist/tex/latex/emoji/emoji.sty
-Package: emoji 2020/06/27 v0.2.1 Emoji support in (Lua)LaTeX
+(c:/texlive/2021/texmf-dist/tex/latex/emoji/emoji.sty
+Package: emoji 2021/07/17 v0.2.2 Emoji support in (Lua)LaTeX
 
-(d:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
-Lua module: fontspec 2020/02/21 2.7i Font selection for XeLaTeX and LuaLaTeX
-(d:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
-Package: fontspec-luatex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaT
+(c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.sty
+(c:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
+(c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
 eX
-\l__fontspec_script_int=\count270
-\l__fontspec_language_int=\count271
-\l__fontspec_strnum_int=\count272
-\l__fontspec_tmp_int=\count273
-\l__fontspec_tmpa_int=\count274
-\l__fontspec_tmpb_int=\count275
-\l__fontspec_tmpc_int=\count276
-\l__fontspec_em_int=\count277
-\l__fontspec_emdef_int=\count278
-\l__fontspec_strong_int=\count279
-\l__fontspec_strongdef_int=\count280
+\l__fontspec_script_int=\count281
+\l__fontspec_language_int=\count282
+\l__fontspec_strnum_int=\count283
+\l__fontspec_tmp_int=\count284
+\l__fontspec_tmpa_int=\count285
+\l__fontspec_tmpb_int=\count286
+\l__fontspec_tmpc_int=\count287
+\l__fontspec_em_int=\count288
+\l__fontspec_emdef_int=\count289
+\l__fontspec_strong_int=\count290
+\l__fontspec_strongdef_int=\count291
 \l__fontspec_tmpa_dim=\dimen160
 \l__fontspec_tmpb_dim=\dimen161
 \l__fontspec_tmpc_dim=\dimen162
 
-(d:/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+(c:/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(d:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-(d:/texlive/2021/texmf-dist/tex/latex/emoji/emoji-table.def
-File: emoji-table.def 2020/06/27 v0.2.1 Emojisupportin(Lua)LaTeX
+(c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(c:/texlive/2021/texmf-dist/tex/latex/emoji/emoji-table.def
+File: emoji-table.def 2021/07/17 v0.2.2 Emojisupportin(Lua)LaTeX
 ))
-(d:/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2020/09/23 v2.17i AMS math features
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
-(d:/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
 
-(d:/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
+\@emptytoks=\toks22
 \ex@=\dimen163
 ))
-(d:/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen164
 )
-(d:/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count281
+\inf@bad=\count292
 LaTeX Info: Redefining \frac on input line 236.
-\uproot@=\count282
-\leftroot@=\count283
+\uproot@=\count293
+\leftroot@=\count294
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count284
-\DOTSCASE@=\count285
+\classnum@=\count295
+\DOTSCASE@=\count296
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box50
-\strutbox@=\box51
+\Mathstrutbox@=\box53
+\strutbox@=\box54
 \big@size=\dimen165
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count286
-\c@MaxMatrixCols=\count287
+\macc@depth=\count297
+\c@MaxMatrixCols=\count298
 \dotsspace@=\muskip17
-\c@parentequation=\count288
-\dspbrk@lvl=\count289
-\tag@help=\toks22
-\row@=\count290
-\column@=\count291
-\maxfields@=\count292
-\andhelp@=\toks23
+\c@parentequation=\count299
+\dspbrk@lvl=\count300
+\tag@help=\toks23
+\row@=\count301
+\column@=\count302
+\maxfields@=\count303
+\andhelp@=\toks24
 \eqnshift@=\dimen166
 \alignsep@=\dimen167
 \tagshift@=\dimen168
 \tagwidth@=\dimen169
 \totwidth@=\dimen170
 \lineht@=\dimen171
-\@envbody=\toks24
+\@envbody=\toks25
 \multlinegap=\skip51
 \multlinetaggap=\skip52
-\mathdisplay@stack=\toks25
-LaTeX Info: Redefining \[ on input line 2923.
-LaTeX Info: Redefining \] on input line 2924.
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
 )
-(d:/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(d:/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -416,7 +420,7 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(d:/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+(c:/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
 \f@nch@headwidth=\skip53
@@ -429,35 +433,35 @@ rs
 \f@nch@O@olf=\skip60
 \f@nch@O@orf=\skip61
 )
-(d:/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(d:/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(d:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks26
+(c:/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks27
 \pgfutil@tempdima=\dimen172
 \pgfutil@tempdimb=\dimen173
 
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
- (d:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box52
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box55
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
-Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 
-(d:/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(d:/texlive/2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+(c:/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks27
-\pgfkeys@temptoks=\toks28
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
 
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks29
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks30
 ))
 \pgf@x=\dimen174
 \pgf@y=\dimen175
@@ -471,86 +475,86 @@ Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@yd=\dimen183
 \w@pgf@writea=\write4
 \r@pgf@reada=\read2
-\c@pgf@counta=\count293
-\c@pgf@countb=\count294
-\c@pgf@countc=\count295
-\c@pgf@countd=\count296
-\t@pgf@toka=\toks30
-\t@pgf@tokb=\toks31
-\t@pgf@tokc=\toks32
-\pgf@sys@id@count=\count297
- (d:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+\c@pgf@counta=\count304
+\c@pgf@countb=\count305
+\c@pgf@countc=\count306
+\c@pgf@countd=\count307
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+\pgf@sys@id@count=\count308
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
 Driver file for pgf: pgfsys-luatex.def
 
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
-File: pgfsys-luatex.def 2020/12/27 v3.1.8b (3.1.8b)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
+File: pgfsys-luatex.def 2021/05/15 v3.1.9a (3.1.9a)
 
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 )))
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count298
-\pgfsyssoftpath@bigbuffer@items=\count299
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count309
+\pgfsyssoftpath@bigbuffer@items=\count310
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-)) (d:/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (c:/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 
-(d:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: luatex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+Package xcolor Info: Driver file: luatex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen184
-\pgfmath@count=\count300
-\pgfmath@box=\box53
-\pgfmath@toks=\toks33
-\pgfmath@stack@operand=\toks34
-\pgfmath@stack@operation=\toks35
+\pgfmath@count=\count311
+\pgfmath@box=\box56
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
 x)
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
 .code.tex)
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
 ex)
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
 de.tex)
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
 x)
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
 etics.code.tex)))
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count301
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count312
 ))
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@picminx=\dimen185
 \pgf@picmaxx=\dimen186
 \pgf@picminy=\dimen187
@@ -566,113 +570,113 @@ File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@zx=\dimen197
 \pgf@zy=\dimen198
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
 e.tex
-File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@path@lastx=\dimen199
 \pgf@path@lasty=\dimen256
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
 x
-File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@shorten@end@additional=\dimen257
 \pgf@shorten@start@additional=\dimen258
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfpic=\box54
-\pgf@hbox=\box55
-\pgf@layerbox@main=\box56
-\pgf@picture@serial@count=\count302
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box57
+\pgf@hbox=\box58
+\pgf@layerbox@main=\box59
+\pgf@picture@serial@count=\count313
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
 .tex
-File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgflinewidth=\dimen259
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
 ode.tex
-File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@pt@x=\dimen260
 \pgf@pt@y=\dimen261
 \pgf@pt@temp=\dimen262
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
 de.tex
-File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfarrowsep=\dimen263
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen264
-\pgf@sys@shading@range@num=\count303
-\pgf@shadingcount=\count304
+\pgf@sys@shading@range@num=\count314
+\pgf@shadingcount=\count315
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfexternal@startupbox=\box57
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box60
 ))
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
 .tex
-File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (d:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-))) (d:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
 x
-File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfnodeparttextbox=\box58
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box61
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(d:/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+(c:/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
 y
-Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@nodesepstart=\dimen265
 \pgf@nodesepend=\dimen266
 )
-(d:/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+(c:/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
 y
-Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
-)) (d:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(d:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(d:/texlive/2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (c:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen267
 \pgffor@skip=\dimen268
-\pgffor@stack=\toks36
-\pgffor@toks=\toks37
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
 ))
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
 de.tex
-File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count305
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count316
 \pgfplotmarksize=\dimen269
 )
 \tikz@lastx=\dimen270
@@ -683,180 +687,177 @@ File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \tikz@lastmovetoy=\dimen275
 \tikzleveldistance=\dimen276
 \tikzsiblingdistance=\dimen277
-\tikz@figbox=\box59
-\tikz@figbox@bg=\box60
-\tikz@tempbox=\box61
-\tikz@tempbox@bg=\box62
-\tikztreelevel=\count306
-\tikznumberofchildren=\count307
-\tikznumberofcurrentchild=\count308
-\tikz@fig@count=\count309
+\tikz@figbox=\box62
+\tikz@figbox@bg=\box63
+\tikz@tempbox=\box64
+\tikz@tempbox@bg=\box65
+\tikztreelevel=\count317
+\tikznumberofchildren=\count318
+\tikznumberofcurrentchild=\count319
+\tikz@fig@count=\count320
 
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count310
-\pgfmatrixcurrentcolumn=\count311
-\pgf@matrix@numberofcolumns=\count312
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count321
+\pgfmatrixcurrentcolumn=\count322
+\pgf@matrix@numberofcolumns=\count323
 )
-\tikz@expandcount=\count313
+\tikz@expandcount=\count324
 
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
-(d:/texlive/2021/texmf-dist/tex/latex/pythontex/pythontex.sty
-Package: pythontex 2019/09/22 v0.17 execute and typeset Python code and other l
+(c:/texlive/2021/texmf-dist/tex/latex/pythontex/pythontex.sty
+Package: pythontex 2021/06/06 v0.18 execute and typeset Python code and other l
 anguages
 
-(d:/texlive/2021/texmf-dist/tex/latex/fvextra/fvextra.sty
+(c:/texlive/2021/texmf-dist/tex/latex/fvextra/fvextra.sty
 Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
 
-(d:/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(c:/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count314
+\etb@tempcnta=\count325
 )
-(d:/texlive/2021/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count315
+(c:/texlive/2021/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2021/12/21 4.1b verbatim text (tvz,hv)
+\FV@CodeLineNo=\count326
 \FV@InFile=\read3
-\FV@TabBox=\box63
-\c@FancyVerbLine=\count316
-\FV@StepNumber=\count317
+\FV@TabBox=\box66
+\c@FancyVerbLine=\count327
+\FV@StepNumber=\count328
 \FV@OutFile=\write5
 )
-(d:/texlive/2021/texmf-dist/tex/latex/upquote/upquote.sty
+(c:/texlive/2021/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 
-(d:/texlive/2021/texmf-dist/tex/latex/base/textcomp.sty
+(c:/texlive/2021/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ))
-(d:/texlive/2021/texmf-dist/tex/latex/lineno/lineno.sty
+(c:/texlive/2021/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count318
-\output=\toks38
-\linenoprevgraf=\count319
+\linenopenalty=\count329
+\output=\toks39
+\linenoprevgraf=\count330
 \linenumbersep=\dimen278
 \linenumberwidth=\dimen279
-\c@linenumber=\count320
-\c@pagewiselinenumber=\count321
-\c@LN@truepage=\count322
-\c@internallinenumber=\count323
-\c@internallinenumbers=\count324
+\c@linenumber=\count331
+\c@pagewiselinenumber=\count332
+\c@LN@truepage=\count333
+\c@internallinenumber=\count334
+\c@internallinenumbers=\count335
 \quotelinenumbersep=\dimen280
 \bframerule=\dimen281
 \bframesep=\dimen282
-\bframebox=\box64
+\bframebox=\box67
 LaTeX Info: Redefining \\ on input line 3056.
 )
-\c@FV@TrueTabGroupLevel=\count325
-\c@FV@TrueTabCounter=\count326
-\FV@TabBox@Group=\box65
+\c@FV@TrueTabGroupLevel=\count336
+\c@FV@TrueTabCounter=\count337
+\FV@TabBox@Group=\box68
 \FV@TmpLength=\skip62
-\c@FV@HighlightLinesStart=\count327
-\c@FV@HighlightLinesStop=\count328
-\FV@LoopCount=\count329
-\FV@NCharsBox=\box66
+\c@FV@HighlightLinesStart=\count338
+\c@FV@HighlightLinesStop=\count339
+\FV@LoopCount=\count340
+\FV@NCharsBox=\box69
 \FV@BreakIndent=\dimen283
-\FV@BreakIndentNChars=\count330
+\FV@BreakIndentNChars=\count341
 \FV@BreakSymbolSepLeft=\dimen284
-\FV@BreakSymbolSepLeftNChars=\count331
+\FV@BreakSymbolSepLeftNChars=\count342
 \FV@BreakSymbolSepRight=\dimen285
-\FV@BreakSymbolSepRightNChars=\count332
+\FV@BreakSymbolSepRightNChars=\count343
 \FV@BreakSymbolIndentLeft=\dimen286
-\FV@BreakSymbolIndentLeftNChars=\count333
+\FV@BreakSymbolIndentLeftNChars=\count344
 \FV@BreakSymbolIndentRight=\dimen287
-\FV@BreakSymbolIndentRightNChars=\count334
-\c@FancyVerbLineBreakLast=\count335
-\FV@LineBox=\box67
-\FV@LineIndentBox=\box68
+\FV@BreakSymbolIndentRightNChars=\count345
+\c@FancyVerbLineBreakLast=\count346
+\FV@LineBox=\box70
+\FV@LineIndentBox=\box71
 \FV@LineWidth=\dimen288
 )
-(d:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
-(d:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count336
-\decimalpart=\count337
+(c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
+(c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count347
+\decimalpart=\count348
 )
-Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
 )
-(d:/texlive/2021/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+(c:/texlive/2021/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks39
-\pgfopts@list@add@b@toks=\toks40
+\pgfopts@list@add@a@toks=\toks40
+\pgfopts@list@add@b@toks=\toks41
 )
-(d:/texlive/2021/texmf-dist/tex/latex/newfloat/newfloat.sty
+(c:/texlive/2021/texmf-dist/tex/latex/newfloat/newfloat.sty
 Package: newfloat 2019/09/02 v1.1l Defining new floating environments (AR)
 )
-(d:/texlive/2021/texmf-dist/tex/latex/currfile/currfile.sty
+(c:/texlive/2021/texmf-dist/tex/latex/currfile/currfile.sty
 Package: currfile 2020/09/29 v0.7d Provides the file path elements of the curre
 nt input file
 
-(d:/texlive/2021/texmf-dist/tex/latex/filehook/filehook.sty
+(c:/texlive/2021/texmf-dist/tex/latex/filehook/filehook.sty
 Package: filehook 2020/09/29 v0.8a Hooks for input files
 
-(d:/texlive/2021/texmf-dist/tex/latex/filehook/filehook-2020.sty
+(c:/texlive/2021/texmf-dist/tex/latex/filehook/filehook-2020.sty
 Package: filehook-2020 2020/09/29 v0.8a Hooks for input files
 ))
-\c@currfiledepth=\count338
+\c@currfiledepth=\count349
 )
 \pytx@codefile=\write6
 
 \openout6 = sample.pytxcode
-\c@pytx@FancyVerbLineTemp=\count339
-\c@pytx@py@default@default=\count340
-\c@pytx@pycon@default@default=\count341
-\c@pytx@sympy@default@default=\count342
-\c@pytx@sympycon@default@default=\count343
-\c@pytx@pylab@default@default=\count344
-\c@pytx@pylabcon@default@default=\count345
+\c@pytx@FancyVerbLineTemp=\count350
+\c@pytx@py@default@default=\count351
+\c@pytx@pycon@default@default=\count352
+\c@pytx@sympy@default@default=\count353
+\c@pytx@sympycon@default@default=\count354
+\c@pytx@pylab@default@default=\count355
+\c@pytx@pylabcon@default@default=\count356
 )
-(d:/texlive/2021/texmf-dist/tex/luatex/luatexja/addons/luatexja-fontspec.sty
+(c:/texlive/2021/texmf-dist/tex/luatex/luatexja/addons/luatexja-fontspec.sty
 Package: luatexja-fontspec 2020-09-14 fontspec support of LuaTeX-ja
 
-(d:/texlive/2021/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2021-03-12 LaTeX2e option processing using LaTeX3 keys
-)
-(d:/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja.sty
-Package: luatexja 2021-03-19 Japanese Typesetting with Lua(La)TeX
+(c:/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja.sty
+Package: luatexja 2022-03-11 Japanese Typesetting with Lua(La)TeX
 
-(d:/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja-core.sty
-Package: luatexja-core 2021-03-16 Core of LuaTeX-ja
+(c:/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja-core.sty
+Package: luatexja-core 2022-01-12 Core of LuaTeX-ja
 
-(d:/texlive/2021/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+(c:/texlive/2021/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
 Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
 
-(d:/texlive/2021/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+(c:/texlive/2021/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
-\@catcodetablestackcnt=\count346
+\@catcodetablestackcnt=\count357
 )
 \CatcodeTableOther=\catcodetable12
 \CatcodeTableExpl=\catcodetable13
 )
-(d:/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(c:/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-(d:/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(d:/texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks41
-\XKV@tempa@toks=\toks42
+(c:/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks42
+\XKV@tempa@toks=\toks43
 )
-\XKV@depth=\count347
+\XKV@depth=\count358
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(d:/texlive/2021/texmf-dist/tex/latex/everyhook/everyhook.sty
-(d:/texlive/2021/texmf-dist/tex/latex/svn-prov/svn-prov.sty
+(c:/texlive/2021/texmf-dist/tex/latex/everyhook/everyhook.sty
+(c:/texlive/2021/texmf-dist/tex/latex/svn-prov/svn-prov.sty
 Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
 )
 Package: everyhook 2014/11/26 v1.2 (SVN Rev: 12)\ Hooks for low level TeX every
 X primitives.
-\everypar=\toks43
-\frozen@everymath=\toks44
-\frozen@everydisplay=\toks45
-\everyhbox=\toks46
-\everyvbox=\toks47
-\everycr=\toks48
+\everypar=\toks44
+\frozen@everymath=\toks45
+\frozen@everydisplay=\toks46
+\everyhbox=\toks47
+\everyvbox=\toks48
+\everycr=\toks49
 )
-\ltjlineendcomment=\count348
+\ltjlineendcomment=\count359
 \ltj@dimen@zw=\dimen289
 \ltj@dimen@zh=\dimen290
 \ltj@dimen@jQ=\dimen291
@@ -875,7 +876,7 @@ X primitives.
 \ltj@vert@ori=\attribute16
 \ltj@dir=\attribute17
 \ltj@@japanese=\language2
-\ltj@tempcnta=\count349
+\ltj@tempcnta=\count360
 \ltj@kcat0=\attribute18
 \ltj@kcat1=\attribute19
 \ltj@kcat2=\attribute20
@@ -898,7 +899,7 @@ Inserting `ltj.direction' at position 1 in `vpack_filter'.
 Inserting `ltj.direction' at position 1 in `pre_output_filter'.
 Inserting `ltj.lineskip' at position 3 in `post_linebreak_filter'.
 Inserting `ltj.lineskip' at position 1 in `append_to_vlist_filter'.
-Lua module: luatexja.jfont 2020-10-05 Loader for Japanese fonts
+Lua module: luatexja.jfont 2021-11-06 Loader for Japanese fonts
 Removing  `luaotfload.define_font' from `define_font'.
 Inserting `luatexja.font_callback' at position 1 in `define_font'.
 Removing  `luaotfload.aux.set_sscale_dimens' from `luaotfload.patch_font'.
@@ -954,7 +955,7 @@ Inserting `ltj.create_dir_whatsit' at position 4 in `hpack_filter'.
 Removing  `luaotfload.node_processor' from `pre_linebreak_filter'.
 Inserting `ltj.set_stack_level' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 2 in `pre_linebreak_filter'.
-Lua module: luatexja.jfmglue 2021-02-11 Insertion process of JFM glues, [x]kanji
+Lua module: luatexja.jfmglue 2022-02-09 Insertion process of JFM glues, [x]kanji
 skip and others
 Inserting `luatexja.beginpar.np_info' at position 1 in `luatexja.jfmglue.whatsit
 _getinfo'.
@@ -985,50 +986,52 @@ Inserting `luaotfload.node_processor' at position 3 in `hpack_filter'.
 Inserting `ltj.main' at position 4 in `hpack_filter'.
 Inserting `luaotfload.harf.finalize_hlist' at position 5 in `hpack_filter'.
 Inserting `ltj.create_dir_whatsit' at position 6 in `hpack_filter'.
-(d:/texlive/2021/texmf-dist/tex/luatex/luatexja/ltj-base.sty
+(c:/texlive/2021/texmf-dist/tex/luatex/luatexja/ltj-base.sty
 Package: ltj-base 2021-03-16
-\ltj@tempcntb=\count350
-\ltj@tempcntc=\count351
+\ltj@tempcntb=\count361
+\ltj@tempcntc=\count362
 \ltj@tempdima=\dimen292
-\ltj@afbox=\box69
+\ltj@afbox=\box72
 )
-\ltj@@italic@inner=\luafunction11
-\ltj@@start@time@measure@inner=\luafunction12
-\ltj@@stop@time@measure@inner=\luafunction13
-\ltj@@jfont@inner=\luafunction14
-\ltj@zw@inner=\luafunction15
-\ltj@zh@inner=\luafunction16
-\ltj@reset@globaldefs@inner=\luafunction17
-\ltj@restore@globaldefs@inner=\luafunction18
-\ltj@@disihb@inner=\luafunction19
-\ltj@@ihb@inner=\luafunction20
-\ltj@@fakeparbegin@inner=\luafunction21
-\ltj@@fakeboxbdd@inner=\luafunction22
-\ltj@@ins@xk@inner=\luafunction23
-\ltj@@ins@k@inner=\luafunction24
-\ltj@@stack=\count352
-\ltj@@group@level=\count353
-\ltjsetkanjiskip@inner=\luafunction25
-\ltjsetxkanjiskip@inner=\luafunction26
-\ltj@@getparam@one@inner=\luafunction27
-\ltj@alljachar@inner=\luafunction28
-\ltj@@lua@populate@insertwhatsit@inner=\luafunction29
-\ltj@@box@dirhook@inner=\luafunction30
-\ltj@@reset@badness@inner=\luafunction31
-\ltj@@lua@raisebox@inner=\luafunction32
-\ltj@@lua@unboxcheckdir@inner=\luafunction33
+\ltj@@italic@inner=\luafunction25
+\ltj@@start@time@measure@inner=\luafunction26
+\ltj@@stop@time@measure@inner=\luafunction27
+\ltj@@jfont@inner=\luafunction28
+\ltj@zw@inner=\luafunction29
+\ltj@zh@inner=\luafunction30
+\ltj@reset@globaldefs@inner=\luafunction31
+\ltj@restore@globaldefs@inner=\luafunction32
+\ltj@@disihb@inner=\luafunction33
+\ltj@@ihb@inner=\luafunction34
+\ltj@@fakeparbegin@inner=\luafunction35
+\ltj@@fakeboxbdd@inner=\luafunction36
+\ltj@@ins@xk@inner=\luafunction37
+\ltj@@ins@k@inner=\luafunction38
+\ltj@@stack=\count363
+\ltj@@group@level=\count364
+\ltjsetkanjiskip@inner=\luafunction39
+\ltjsetxkanjiskip@inner=\luafunction40
+\ltj@@getparam@one@inner=\luafunction41
+\ltj@alljachar@inner=\luafunction42
+\ltj@@lua@populate@insertwhatsit@inner=\luafunction43
+\ltj@@vadjust@begin@inner=\luafunction44
+\ltj@@vadjust@dirhook@inner=\luafunction45
+\ltj@@vadjust@check@dir@inner=\luafunction46
+\ltj@@box@dirhook@inner=\luafunction47
+\ltj@@reset@badness@inner=\luafunction48
+\ltj@@lua@raisebox@inner=\luafunction49
+\ltj@@lua@unboxcheckdir@inner=\luafunction50
 (load cache: ltj-kinsoku_default.luc)
-(d:/texlive/2021/texmf-dist/tex/luatex/luatexja/ltj-latex.sty
-Package: ltj-latex 2021-03-18 LaTeX support of LuaTeX-ja
-\ltj@@lua@shipout@inner=\luafunction34
+(c:/texlive/2021/texmf-dist/tex/luatex/luatexja/ltj-latex.sty
+Package: ltj-latex 2021-10-24 LaTeX support of LuaTeX-ja
+Inserting `ltj.direction' at position 1 in `pre_shipout_filter'.
+(c:/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjfont.sty
+Package: lltjfont 2021-05-26 Patch to NFSS2 for LuaTeX-ja
+\ltj@@latex@plv=\count365
 
-(d:/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjfont.sty
-Package: lltjfont 2021-02-14 Patch to NFSS2 for LuaTeX-ja
-\ltj@@latex@plv=\count354
-
-(d:/texlive/2021/texmf-dist/tex/latex/base/tuenc.def
-File: tuenc.def 2020/08/10 v2.0s Standard LaTeX file
-\@remove@tlig@@@@=\luafunction35
+(c:/texlive/2021/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2021/04/29 v2.0v Standard LaTeX file
+\@remove@tlig@@@@=\luafunction51
 LaTeX Font Info:    Redeclaring font encoding TU on input line 106.
 )
 \Cht=\dimen293
@@ -1042,104 +1045,97 @@ LaTeX Font Info:    Redeclaring font encoding TU on input line 106.
 \Chs=\dimen301
 \chs=\dimen302
 \cHT=\dimen303
-\dstrutbox=\box70
-\tstrutbox=\box71
-\zstrutbox=\box72
-LaTeX Info: Redefining \strut on input line 90.
-\ltj@@add@fenc@@inner=\luafunction36
-\ltj@@add@kyenc@@inner=\luafunction37
-\ltj@@add@ktenc@@inner=\luafunction38
-\ltj@@is@kyenc@@inner=\luafunction39
-\ltj@@is@ktenc@@inner=\luafunction40
-\ltj@@is@kenc@@inner=\luafunction41
-\ltj@@is@ffam@@inner=\luafunction42
-\ltj@@add@ffam@@inner=\luafunction43
-\ltj@@add@kfam@@inner=\luafunction44
-
-(d:/texlive/2021/texmf-dist/tex/latex/everysel/everysel.sty
-Package: everysel 2021/01/20 v2.1 EverySelectfont Package (MS)
-
-(d:/texlive/2021/texmf-dist/tex/latex/everysel/everysel-2011-10-28.sty))
-ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 448.
-\ltj@@adjust@baseline@inner=\luafunction45
-LaTeX Info: Redefining \fontencoding on input line 643.
-LaTeX Info: Redefining \fontfamily on input line 686.
-LaTeX Info: Redefining \fontseries on input line 919.
-LaTeX Info: Redefining \fontseriesforce on input line 920.
-LaTeX Info: Redefining \fontshape on input line 925.
-LaTeX Info: Redefining \fontshapeforce on input line 932.
-\ltj@@jfont@@jfmonly@@inner=\luafunction46
-\ltj@@does@alt@set@@inner=\luafunction47
+\dstrutbox=\box73
+\tstrutbox=\box74
+\zstrutbox=\box75
+LaTeX Info: Redefining \strut on input line 91.
+\ltj@@add@fenc@@inner=\luafunction52
+\ltj@@add@kyenc@@inner=\luafunction53
+\ltj@@add@ktenc@@inner=\luafunction54
+\ltj@@is@kyenc@@inner=\luafunction55
+\ltj@@is@ktenc@@inner=\luafunction56
+\ltj@@is@kenc@@inner=\luafunction57
+\ltj@@is@ffam@@inner=\luafunction58
+\ltj@@add@ffam@@inner=\luafunction59
+\ltj@@add@kfam@@inner=\luafunction60
+\ltj@@adjust@baseline@inner=\luafunction61
+LaTeX Info: Redefining \fontencoding on input line 645.
+LaTeX Info: Redefining \fontfamily on input line 688.
+LaTeX Info: Redefining \fontseries on input line 922.
+LaTeX Info: Redefining \fontseriesforce on input line 923.
+LaTeX Info: Redefining \fontshape on input line 943.
+LaTeX Info: Redefining \fontshapeforce on input line 954.
+\ltj@@jfont@@jfmonly@@inner=\luafunction62
+\ltj@@does@alt@set@@inner=\luafunction63
 )
-(d:/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjdefs.sty
-Package: lltjdefs 2021-01-24 Default font settings of LuaTeX-ja
+(c:/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjdefs.sty
+Package: lltjdefs 2022-01-23 Default font settings of LuaTeX-ja
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 9.6222pt on input line 75.
 
-(d:/texlive/2021/texmf-dist/tex/luatex/luatexja/jfm-ujisv.lua)
+(c:/texlive/2021/texmf-dist/tex/luatex/luatexja/jfm-ujisv.lua)
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 9.6222pt on input line 75.
 (load cache: extra_haranoajimincho-regular.luc)
-(d:/texlive/2021/texmf-dist/tex/luatex/luatexja/jfm-ujis.lua)
+(c:/texlive/2021/texmf-dist/tex/luatex/luatexja/jfm-ujis.lua)
 \symmincho=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
 (Font)                  JY3/mc/m/n --> JY3/gt/m/n on input line 84.
 )
-(d:/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjcore.sty
-Package: lltjcore 2021-03-19 Patch to LaTeX2e Kernel for LuaTeX-ja
+(c:/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjcore.sty
+Package: lltjcore 2022-01-17 Patch to LaTeX2e Kernel for LuaTeX-ja
 \@tombowwidth=\dimen304
-\@TL=\box73
-\@Tl=\box74
-\@TC=\box75
-\@TR=\box76
-\@Tr=\box77
-\@BL=\box78
-\@Bl=\box79
-\@BC=\box80
-\@BR=\box81
-\@Br=\box82
-\@CL=\box83
-\@CR=\box84
+\@TL=\box76
+\@Tl=\box77
+\@TC=\box78
+\@TR=\box79
+\@Tr=\box80
+\@BL=\box81
+\@Bl=\box82
+\@BC=\box83
+\@BR=\box84
+\@Br=\box85
+\@CL=\box86
+\@CR=\box87
 (load cache: extra_lmmono9-regular.luc)
-\@bannertoken=\toks49
+\@bannertoken=\toks50
 \@@paperheight=\dimen305
 \@@paperwidth=\dimen306
 \@@topmargin=\dimen307
 LaTeX Info: Redefining \underline on input line 261.
 )
-(d:/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjp-atbegshi.sty
-Package: lltjp-atbegshi 2021-03-14 Patching \shipout hooks for LuaTeX-ja
-\l__platex_shipout_dummy_box=\box85
+(c:/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjp-atbegshi.sty
+Package: lltjp-atbegshi 2021-04-29 Patching \shipout hooks for LuaTeX-ja
+\l__platex_shipout_dummy_box=\box88
 )
-(d:/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjp-fontspec.sty)
-(d:/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjp-geometry.sty
-Package: lltjp-geometry 2020-12-29 Patch to geometry for LuaTeX-ja with vertica
+(c:/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjp-fontspec.sty)
+(c:/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjp-geometry.sty
+Package: lltjp-geometry 2021-10-24 Patch to geometry for LuaTeX-ja with vertica
 l writing mode
 
-(d:/texlive/2021/texmf-dist/tex/generic/iftex/ifluatex.sty
+(c:/texlive/2021/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )))
 \ltj@temp@cctb=\catcodetable14
 )
-(d:/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja-compat.sty
+(c:/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja-compat.sty
 Package: luatexja-compat 2020-08-08 Compatibility with pTeX
 (load cache: ltj-jisx0208.luc)
-\hour=\count355
-\minute=\count356
+\hour=\count366
+\minute=\count367
 ))(load cache: extra_lmroman17-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 15.39551pt on input line 16.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 15.39551pt on input line 16.
 
-(d:/texlive/2021/texmf-dist/tex/luatex/luatexja/addons/luatexja-fontspec-27c.st
+(c:/texlive/2021/texmf-dist/tex/luatex/luatexja/addons/luatexja-fontspec-27c.st
 y
 Package: luatexja-fontspec-27c 2020-04-04 fontspec support of LuaTeX-ja
-\g__ltj_fontspec_altnumber_int=\count357
+\g__ltj_fontspec_altnumber_int=\count368
 ))
-luaotfload | cache : Lookup cache loaded from C:/Users/eurekazheng/.texlive2021/
-texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | cache : Lookup cache loaded from C:/texlive/2021/texmf-var/luatex-c
+ache/generic/names/luaotfload-lookup-cache.luc.
 luaotfload | db : Reload initiated (formats: otf,ttf,ttc); reason: Font "simkai"
  not found.(load cache: extra_kaiti.luc)
 
@@ -1155,7 +1151,7 @@ Package fontspec Info: Could not resolve font "simkai/I" (it probably doesn't
 (fontspec)             exist).
 
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 60.
+(Font)              scaled to size 9.6222pt on input line 61.
 
 Package fontspec Info: Font family 'simkai(0)' created for font 'simkai' with
 (fontspec)             options
@@ -1166,21 +1162,21 @@ Package fontspec Info: Font family 'simkai(0)' created for font 'simkai' with
 (fontspec)             series/shapes:
 (fontspec)              
 
-LaTeX Font Info:    Redeclaring symbol font `mincho' on input line 60.
+LaTeX Font Info:    Redeclaring symbol font `mincho' on input line 61.
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `normal'
-(Font)                  JY3/mc/m/n --> JY3/simkai(0)/m/n on input line 60.
+(Font)                  JY3/mc/m/n --> JY3/simkai(0)/m/n on input line 61.
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY3/gt/m/n --> JY3/simkai(0)/m/n on input line 60.
+(Font)                  JY3/gt/m/n --> JY3/simkai(0)/m/n on input line 61.
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
 (Font)                  JY3/simkai(0)/m/n --> JY3/simkai(0)/b/n on input line 6
-0.
+1.
 LaTeX Font Info:    Font shape `JT3/simkai(0)/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 60.
+(Font)              scaled to size 9.6222pt on input line 61.
 LaTeX Font Info:    Font shape `JY3/simkai(0)/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 60.
-luaotfload | aux : font no 33 (nil) does not define feature vert for script hani
+(Font)              scaled to size 9.6222pt on input line 61.
+luaotfload | aux : font no 25 (nil) does not define feature vert for script hani
  with language dflt
-luaotfload | aux : font no 33 (nil) does not define feature vrt2 for script hani
+luaotfload | aux : font no 25 (nil) does not define feature vrt2 for script hani
  with language dflt(load cache: extra_simsun.luc)
 
 Package fontspec Info: Could not resolve font "simsun/BI" (it probably doesn't
@@ -1204,45 +1200,45 @@ Package fontspec Info: Font family 'simsun(0)' created for font 'simsun' with
 (fontspec)             series/shapes:
 (fontspec)              
 
- (d:/texlive/2021/texmf-dist/tex/latex/csvsimple/csvsimple.sty
-Package: csvsimple 2019/04/09 version 1.21 LaTeX CSV file processing
+ (c:/texlive/2021/texmf-dist/tex/latex/csvsimple/csvsimple.sty
+Package: csvsimple 2022/02/01 v2.3.0 LaTeX CSV file processing
+)
+(c:/texlive/2021/texmf-dist/tex/latex/csvsimple/csvsimple-legacy.sty
+Package: csvsimple-legacy 2022/02/01 version 2.3.0 LaTeX2e CSV file processing
 
-(d:/texlive/2021/texmf-dist/tex/latex/tools/shellesc.sty
+(c:/texlive/2021/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Unrestricted shell escape enabled on input line 75.
 )
 \csv@file=\read4
-\c@csvinputline=\count358
-\c@csvrow=\count359
-\c@csvcol=\count360
+\c@csvinputline=\count369
+\c@csvrow=\count370
+\c@csvcol=\count371
 \csv@out=\write7
 )
-(d:/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count361
-\mult@box=\box86
+(c:/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count372
+\mult@box=\box89
 \multicol@leftmargin=\dimen308
-\c@unbalance=\count362
-\c@collectmore=\count363
-\doublecol@number=\count364
-\multicoltolerance=\count365
-\multicolpretolerance=\count366
+\c@unbalance=\count373
+\c@collectmore=\count374
+\doublecol@number=\count375
+\multicoltolerance=\count376
+\multicolpretolerance=\count377
 \full@width=\dimen309
 \page@free=\dimen310
 \premulticols=\dimen311
 \postmulticols=\dimen312
 \multicolsep=\skip63
 \multicolbaselineskip=\skip64
-\partial@page=\box87
-\last@line=\box88
+\partial@page=\box90
+\last@line=\box91
 \maxbalancingoverflow=\dimen313
-\mult@rightbox=\box89
-\mult@grightbox=\box90
-\mult@gfirstbox=\box91
-\mult@firstbox=\box92
-\@tempa=\box93
-\@tempa=\box94
-\@tempa=\box95
+\mult@rightbox=\box92
+\mult@grightbox=\box93
+\mult@firstbox=\box94
+\mult@gfirstbox=\box95
 \@tempa=\box96
 \@tempa=\box97
 \@tempa=\box98
@@ -1277,24 +1273,26 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box127
 \@tempa=\box128
 \@tempa=\box129
-\c@minrows=\count367
-\c@columnbadness=\count368
-\c@finalcolumnbadness=\count369
+\@tempa=\box130
+\@tempa=\box131
+\c@minrows=\count378
+\c@columnbadness=\count379
+\c@finalcolumnbadness=\count380
 \last@try=\dimen314
 \multicolovershoot=\dimen315
 \multicolundershoot=\dimen316
-\mult@nat@firstbox=\box130
-\colbreak@box=\box131
-\mc@col@check@num=\count370
+\mult@nat@firstbox=\box132
+\colbreak@box=\box133
+\mc@col@check@num=\count381
 )
-(d:/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
+(c:/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip65
-\multirow@cntb=\count371
+\multirow@cntb=\count382
 \multirow@dima=\skip66
 \bigstrutjot=\dimen317
 )
-(d:/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
+(c:/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen318
 \lightrulewidth=\dimen319
@@ -1306,37 +1304,37 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen325
 \cmidrulekern=\dimen326
 \defaultaddspace=\dimen327
-\@cmidla=\count372
-\@cmidlb=\count373
+\@cmidla=\count383
+\@cmidlb=\count384
 \@aboverulesep=\dimen328
 \@belowrulesep=\dimen329
-\@thisruleclass=\count374
-\@lastruleclass=\count375
+\@thisruleclass=\count385
+\@lastruleclass=\count386
 \@thisrulewidth=\dimen330
 )
-(d:/texlive/2021/texmf-dist/tex/latex/minted/minted.sty
-Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+(c:/texlive/2021/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2021/12/24 v2.6 Yet another Pygments shim for LaTeX
 
-(d:/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
+(c:/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count376
-\calc@Bcount=\count377
+\calc@Acount=\count387
+\calc@Bcount=\count388
 \calc@Adimen=\dimen331
 \calc@Bdimen=\dimen332
 \calc@Askip=\skip67
 \calc@Bskip=\skip68
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count378
+\calc@Ccount=\count389
 \calc@Cskip=\skip69
 )
-(d:/texlive/2021/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+(c:/texlive/2021/texmf-dist/tex/latex/ifplatform/ifplatform.sty
 Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
 
-(d:/texlive/2021/texmf-dist/tex/generic/catchfile/catchfile.sty
+(c:/texlive/2021/texmf-dist/tex/generic/catchfile/catchfile.sty
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 ))
-(d:/texlive/2021/texmf-dist/tex/latex/framed/framed.sty
+(c:/texlive/2021/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip70
 \fb@frw=\dimen333
@@ -1345,37 +1343,37 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameSep=\dimen336
 )
 \minted@appexistsfile=\read5
-\minted@bgbox=\box132
+\minted@bgbox=\box134
 \minted@code=\write8
-\c@minted@FancyVerbLineTemp=\count379
-\c@minted@pygmentizecounter=\count380
-\@float@every@listing=\toks50
-\c@listing=\count381
+\c@minted@FancyVerbLineTemp=\count390
+\c@minted@pygmentizecounter=\count391
+\@float@every@listing=\toks51
+\c@listing=\count392
 )
 runsystem(if not exist _minted-sample mkdir _minted-sample)...executed
 
-(d:/texlive/2021/texmf-dist/tex/latex/algorithms/algorithm.sty
+(c:/texlive/2021/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
-\@float@every@algorithm=\toks51
-\c@algorithm=\count382
+\@float@every@algorithm=\toks52
+\c@algorithm=\count393
 )
-(d:/texlive/2021/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+(c:/texlive/2021/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
 
-(d:/texlive/2021/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+(c:/texlive/2021/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count383
-\c@ALG@rem=\count384
-\c@ALG@nested=\count385
+\c@ALG@line=\count394
+\c@ALG@rem=\count395
+\c@ALG@nested=\count396
 \ALG@tlm=\skip71
 \ALG@thistlm=\skip72
-\c@ALG@Lnr=\count386
-\c@ALG@blocknr=\count387
-\c@ALG@storecount=\count388
-\c@ALG@tmpcounter=\count389
+\c@ALG@Lnr=\count397
+\c@ALG@blocknr=\count398
+\c@ALG@storecount=\count399
+\c@ALG@tmpcounter=\count400
 \ALG@tmplength=\skip73
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
@@ -1408,42 +1406,42 @@ Package fontspec Info: Font family 'Calibri(0)' created for font 'Calibri'
 (fontspec)             <->"Calibri/BI:mode=node;script=latn;language=dflt;+smcp
 ;"
 
- (d:/texlive/2021/texmf-dist/tex/lualatex/luacode/luacode.sty
+ (c:/texlive/2021/texmf-dist/tex/lualatex/luacode/luacode.sty
 Package: luacode 2012/01/23 v1.2a lua-in-tex helpers (mpg)
-\luacode@lines=\toks52
+\luacode@lines=\toks53
 \luacode@table@soft=\catcodetable15
 )
-(d:/texlive/2021/texmf-dist/tex/latex/circuitikz/circuitikz.sty
-Package: circuitikz 2021/03/14{} The CircuiTikz circuit drawing package version
- 1.3.2
+(c:/texlive/2021/texmf-dist/tex/latex/circuitikz/circuitikz.sty
+Package: circuitikz 2022/02/04{} The CircuiTikz circuit drawing package version
+ 1.4.6
 
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.cod
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.cod
 e.tex
-File: pgflibraryarrows.meta.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfarrowinset=\dimen337
 \pgfarrowlength=\dimen338
 \pgfarrowwidth=\dimen339
 \pgfarrowlinewidth=\dimen340
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarybending.code.tex
-File: tikzlibrarybending.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: tikzlibrarybending.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulebending.code.tex
-File: pgfmodulebending.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulebending.code.tex
+File: pgfmodulebending.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineartransform
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineartransform
 ations.code.tex
-File: pgfmodulenonlineartransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfmodulenonlineartransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgftransformnonlinearflatness=\dimen341
 )
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvilinear.cod
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvilinear.cod
 e.tex
-File: pgflibrarycurvilinear.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgflibrarycurvilinear.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@curvilinear@time@a=\dimen342
 \pgf@curvilinear@length@a=\dimen343
 \pgf@curvilinear@length@b=\dimen344
@@ -1452,13 +1450,13 @@ File: pgflibrarycurvilinear.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
 \pgf@arrows@the@rigidity=\dimen347
 ))
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 braryfpu.code.tex
-(d:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex))
-(d:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
-\pgf@circ@count@a=\count390
-\pgf@circ@count@b=\count391
-\pgf@circ@count@c=\count392
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex))
+(c:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
+\pgf@circ@count@a=\count401
+\pgf@circ@count@b=\count402
+\pgf@circ@count@c=\count403
 \pgf@circ@res@up=\dimen348
 \pgf@circ@res@down=\dimen349
 \pgf@circ@res@zero=\dimen350
@@ -1471,78 +1469,89 @@ braryfpu.code.tex
 \pgf@circ@scaled@Rlen=\dimen357
 \pgfstartlinewidth=\dimen358
 )
-(d:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex)
-(d:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex)
-(d:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
-(d:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex)
-(d:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex)
-(d:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex
-\pgf@circ@res@count=\count393
+(c:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex
+\ctikz@scratchbox=\box135
 )
-(d:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex)
-(d:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.tex)
-(d:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
-(d:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
+(c:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex
+\pgf@circ@res@count=\count404
+)
+(c:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
 \pgfcirc@labelshift=\dimen359
 )
-(d:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
-(d:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
+(c:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
+(c:/texlive/2021/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip74
+\enit@outerparindent=\dimen360
+\enit@toks=\toks54
+\enit@inbox=\box136
+\enit@count@id=\count405
+\enitdp@description=\count406
+)
 runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > sam
 ple.aex <nul: /p x=^%~$PATH:i>> sample.aex)...failed 
 runsystem(del sample.aex)...executed
-
-(./sample.aux)
+ (./sample.aux)
 \openout1 = sample.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 117.
 LaTeX Font Info:    Trying loading font information for TS1+cmr on input line 1
-02.
- (d:/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+17.
+
+(c:/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
 
-(d:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count394
-\scratchdimen=\dimen360
-\scratchbox=\box133
-\nofMPsegments=\count395
-\nofMParguments=\count396
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count397
-\MPscratchDim=\dimen361
-\MPnumerator=\count398
-\makeMPintoPDFobject=\count399
-\everyMPtoPDFconversion=\toks54
-) (d:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+\scratchcounter=\count407
+\scratchdimen=\dimen361
+\scratchbox=\box137
+\nofMPsegments=\count408
+\nofMParguments=\count409
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count410
+\MPscratchDim=\dimen362
+\MPnumerator=\count411
+\makeMPintoPDFobject=\count412
+\everyMPtoPDFconversion=\toks56
+) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(d:/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(c:/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -1551,22 +1560,22 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: hypcap package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 102.
+Package hyperref Info: Link coloring ON on input line 117.
 
-(d:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
+(c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
-(d:/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
+(c:/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(d:/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(c:/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count400
+\c@section@level=\count413
 )
-LaTeX Info: Redefining \ref on input line 102.
-LaTeX Info: Redefining \pageref on input line 102.
-LaTeX Info: Redefining \nameref on input line 102.
+LaTeX Info: Redefining \ref on input line 117.
+LaTeX Info: Redefining \pageref on input line 117.
+LaTeX Info: Redefining \nameref on input line 117.
 
 (./sample.out) (./sample.out)
 \@outlinefile=\write9
@@ -1613,81 +1622,65 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 102.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 102.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 102.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 102.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 102.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 102.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 102.
-LaTeX Font Info:    Redeclaring math accent \check on input line 102.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 102.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 102.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 102.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 102.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 117.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 117.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 117.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 117.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 117.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 117.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 117.
+LaTeX Font Info:    Redeclaring math accent \check on input line 117.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 117.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 117.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 117.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 117.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 102.
+(Font)              `operators' in the math version `normal' on input line 117.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 102.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 117.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 102.
+(Font)              `operators' in the math version `bold' on input line 117.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 102.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 117.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 102.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 117.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 102.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 117.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 102.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 117.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 102.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 117.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 102.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 117.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 102.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 117.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 102.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 117.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 102.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 117.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 102.
-(load cache: extra_segoeuiemoji.luc)
-
-Package fontspec Info: Font family 'SegoeUIEmoji(0)' created for font 'Segoe
-(fontspec)             UI Emoji' with options
-(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},Renderer=Har
-fBuzz].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"SegoeUIEmoji:mode=harf;script=latn;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 117.
 Package newfloat Info: `float' package detected.
 (./pythontex-files-sample/sample.pytxmcr)
 
 Package PythonTeX Warning: A "listing" environment already exists 
 (PythonTeX)                PythonTeX will not create one 
 (PythonTeX)                Use \setpythontexlistingenv to create a custom listi
-ng environment on input line 102.
+ng environment on input line 117.
 
-ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 102.
 (load cache: extra_twemojimozilla.luc)
 
 Package fontspec Info: Font family 'TwemojiMozilla(0)' created for font
@@ -1703,206 +1696,221 @@ fBuzz].
 
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-
 (./pythontex-files-sample/sample.pytxpyg)
 LaTeX Font Info:    Font shape `JT3/simkai(0)/m/n' will be
-(Font)              scaled to size 16.62714pt on input line 105.
+(Font)              scaled to size 16.62714pt on input line 120.
 LaTeX Font Info:    Font shape `JY3/simkai(0)/m/n' will be
-(Font)              scaled to size 16.62714pt on input line 105.
-luaotfload | aux : font no 54 (nil) does not define feature vert for script hani
+(Font)              scaled to size 16.62714pt on input line 120.
+luaotfload | aux : font no 43 (nil) does not define feature vert for script hani
  with language dflt
-luaotfload | aux : font no 54 (nil) does not define feature vrt2 for script hani
+luaotfload | aux : font no 43 (nil) does not define feature vrt2 for script hani
  with language dflt(load cache: extra_lmroman12-regular.luc)
-LaTeX Font Info:    Trying loading font information for U+msa on input line 105
+LaTeX Font Info:    Trying loading font information for U+msa on input line 120
 .
 
-(d:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying loading font information for U+msb on input line 105
+LaTeX Font Info:    Trying loading font information for U+msb on input line 120
 .
 
-(d:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JY3/simkai(0)/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 105.
-luaotfload | aux : font no 71 (nil) does not define feature vert for script hani
+(Font)              scaled to size 11.54663pt on input line 120.
+luaotfload | aux : font no 60 (nil) does not define feature vert for script hani
  with language dflt
-luaotfload | aux : font no 71 (nil) does not define feature vrt2 for script hani
+luaotfload | aux : font no 60 (nil) does not define feature vrt2 for script hani
  with language dflt
 LaTeX Font Info:    Font shape `JT3/simkai(0)/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 105.
+(Font)              scaled to size 11.54663pt on input line 120.
 (load cache: extra_lmroman8-regular.luc)(load cache: extra_lmroman6-regular.luc)
 LaTeX Font Info:    Font shape `JY3/simkai(0)/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 105.
-luaotfload | aux : font no 87 (nil) does not define feature vert for script hani
+(Font)              scaled to size 7.69775pt on input line 120.
+luaotfload | aux : font no 76 (nil) does not define feature vert for script hani
  with language dflt
-luaotfload | aux : font no 87 (nil) does not define feature vrt2 for script hani
+luaotfload | aux : font no 76 (nil) does not define feature vrt2 for script hani
  with language dflt
 LaTeX Font Info:    Font shape `JY3/simkai(0)/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 105.
-luaotfload | aux : font no 88 (nil) does not define feature vert for script hani
+(Font)              scaled to size 5.77332pt on input line 120.
+luaotfload | aux : font no 77 (nil) does not define feature vert for script hani
  with language dflt
-luaotfload | aux : font no 88 (nil) does not define feature vrt2 for script hani
+luaotfload | aux : font no 77 (nil) does not define feature vrt2 for script hani
  with language dflt
 LaTeX Font Info:    Font shape `JT3/simkai(0)/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 107.
+(Font)              scaled to size 13.85594pt on input line 122.
 LaTeX Font Info:    Font shape `JY3/simkai(0)/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 107.
-luaotfload | aux : font no 92 (nil) does not define feature vert for script hani
+(Font)              scaled to size 13.85594pt on input line 122.
+luaotfload | aux : font no 81 (nil) does not define feature vert for script hani
  with language dflt
-luaotfload | aux : font no 92 (nil) does not define feature vrt2 for script hani
+luaotfload | aux : font no 81 (nil) does not define feature vrt2 for script hani
  with language dflt(load cache: extra_lmroman12-bold.luc)
 
 LaTeX Font Warning: Font shape `JT3/simkai(0)/b/n' undefined
-(Font)              using `JT3/simkai(0)/m/n' instead on input line 107.
+(Font)              using `JT3/simkai(0)/m/n' instead on input line 122.
 
 LaTeX Font Info:    Font shape `JT3/simkai(0)/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 107.
+(Font)              scaled to size 13.85594pt on input line 122.
 
 LaTeX Font Warning: Font shape `JY3/simkai(0)/b/n' undefined
-(Font)              using `JY3/simkai(0)/m/n' instead on input line 107.
+(Font)              using `JY3/simkai(0)/m/n' instead on input line 122.
 
 (./sample.toc
 LaTeX Font Info:    Font shape `JT3/simkai(0)/b/n' will be
 (Font)              scaled to size 9.6222pt on input line 1.
 LaTeX Font Info:    Font shape `JY3/simkai(0)/b/n' will be
 (Font)              scaled to size 9.6222pt on input line 1.
-luaotfload | aux : font no 33 (nil) does not define feature vert for script hani
+luaotfload | aux : font no 25 (nil) does not define feature vert for script hani
  with language dflt
-luaotfload | aux : font no 33 (nil) does not define feature vrt2 for script hani
+luaotfload | aux : font no 25 (nil) does not define feature vrt2 for script hani
  with language dflt(load cache: extra_lmroman7-regular.luc)(load cache: extra_lm
 roman5-regular.luc)
 LaTeX Font Info:    Font shape `JY3/simkai(0)/m/n' will be
 (Font)              scaled to size 6.73553pt on input line 2.
-luaotfload | aux : font no 106 (nil) does not define feature vert for script han
-i with language dflt
-luaotfload | aux : font no 106 (nil) does not define feature vrt2 for script han
-i with language dflt
+luaotfload | aux : font no 95 (nil) does not define feature vert for script hani
+ with language dflt
+luaotfload | aux : font no 95 (nil) does not define feature vrt2 for script hani
+ with language dflt
 LaTeX Font Info:    Font shape `JY3/simkai(0)/m/n' will be
 (Font)              scaled to size 4.8111pt on input line 2.
-luaotfload | aux : font no 107 (nil) does not define feature vert for script han
-i with language dflt
-luaotfload | aux : font no 107 (nil) does not define feature vrt2 for script han
-i with language dflt)
+luaotfload | aux : font no 96 (nil) does not define feature vert for script hani
+ with language dflt
+luaotfload | aux : font no 96 (nil) does not define feature vrt2 for script hani
+ with language dflt)
 \tf@toc=\write10
 
 \openout10 = sample.toc
 LaTeX Font Info:    Font shape `JT3/simkai(0)/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 112.
+(Font)              scaled to size 6.73553pt on input line 127.
  [1
 
-{d:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}](load cache: extr
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}](load cache: extr
 a_lmmono10-regular.luc)
-Overfull \hbox (7.53207pt too wide) in paragraph at lines 127--129
+Overfull \hbox (7.53207pt too wide) in paragraph at lines 142--144
 \TU/lmtt/m/n/10 repository https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/tex
 live/tlnet 
  []
 
 LaTeX Font Info:    Font shape `JT3/simkai(0)/b/n' will be
-(Font)              scaled to size 13.85594pt on input line 132.
+(Font)              scaled to size 13.85594pt on input line 147.
 LaTeX Font Info:    Font shape `JY3/simkai(0)/b/n' will be
-(Font)              scaled to size 13.85594pt on input line 132.
-luaotfload | aux : font no 92 (nil) does not define feature vert for script hani
+(Font)              scaled to size 13.85594pt on input line 147.
+luaotfload | aux : font no 81 (nil) does not define feature vert for script hani
  with language dflt
-luaotfload | aux : font no 92 (nil) does not define feature vrt2 for script hani
+luaotfload | aux : font no 81 (nil) does not define feature vrt2 for script hani
  with language dflt
 LaTeX Font Info:    Font shape `JT3/simkai(0)/b/n' will be
-(Font)              scaled to size 11.54663pt on input line 134.
+(Font)              scaled to size 11.54663pt on input line 149.
 LaTeX Font Info:    Font shape `JY3/simkai(0)/b/n' will be
-(Font)              scaled to size 11.54663pt on input line 134.
-luaotfload | aux : font no 71 (nil) does not define feature vert for script hani
+(Font)              scaled to size 11.54663pt on input line 149.
+luaotfload | aux : font no 60 (nil) does not define feature vert for script hani
  with language dflt
-luaotfload | aux : font no 71 (nil) does not define feature vrt2 for script hani
+luaotfload | aux : font no 60 (nil) does not define feature vrt2 for script hani
  with language dflt(load cache: extra_lmromandemi10-regular.luc)
 LaTeX Font Info:    Font shape `JT3/simkai(0)/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 139.
-<images/lq0.jpg, id=108, 1180.41pt x 1472.50125pt>
+(Font)              scaled to size 4.8111pt on input line 154.
+<images/lq0.jpg, id=109, 1180.41pt x 1472.50125pt>
 File: images/lq0.jpg Graphic file (type jpg)
 <use images/lq0.jpg>
-Package luatex.def Info: images/lq0.jpg  used on input line 197.
+Package luatex.def Info: images/lq0.jpg  used on input line 212.
 (luatex.def)             Requested size: 181.18439pt x 226.01096pt.
 [2]
-<images/lq1.jpg, id=129, 2007.5pt x 3010.24625pt>
+<images/lq1.jpg, id=130, 2007.5pt x 3010.24625pt>
 File: images/lq1.jpg Graphic file (type jpg)
 <use images/lq1.jpg>
-Package luatex.def Info: images/lq1.jpg  used on input line 205.
+Package luatex.def Info: images/lq1.jpg  used on input line 220.
 (luatex.def)             Requested size: 165.33577pt x 247.89824pt.
 (load cache: extra_lmroman9-regular.luc)
 LaTeX Font Info:    Font shape `JT3/simkai(0)/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 206.
+(Font)              scaled to size 8.65997pt on input line 221.
 LaTeX Font Info:    Font shape `JY3/simkai(0)/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 206.
-luaotfload | aux : font no 116 (nil) does not define feature vert for script han
+(Font)              scaled to size 8.65997pt on input line 221.
+luaotfload | aux : font no 105 (nil) does not define feature vert for script han
 i with language dflt
-luaotfload | aux : font no 116 (nil) does not define feature vrt2 for script han
+luaotfload | aux : font no 105 (nil) does not define feature vrt2 for script han
 i with language dflt
-<images/lq2.jpg, id=130, 2007.5pt x 1403.2425pt>
+<images/lq2.jpg, id=131, 2007.5pt x 1403.2425pt>
 File: images/lq2.jpg Graphic file (type jpg)
 <use images/lq2.jpg>
-Package luatex.def Info: images/lq2.jpg  used on input line 209.
+Package luatex.def Info: images/lq2.jpg  used on input line 224.
 (luatex.def)             Requested size: 181.18439pt x 126.62895pt.
-<images/lq3.jpg, id=131, 2007.5pt x 2706.11pt>
+<images/lq3.jpg, id=132, 2007.5pt x 2706.11pt>
 File: images/lq3.jpg Graphic file (type jpg)
 <use images/lq3.jpg>
-Package luatex.def Info: images/lq3.jpg  used on input line 211.
+Package luatex.def Info: images/lq3.jpg  used on input line 226.
 (luatex.def)             Requested size: 88.78134pt x 119.6638pt.
-<images/lq4.jpg, id=132, 2007.5pt x 2671.9825pt>
+<images/lq4.jpg, id=133, 2007.5pt x 2671.9825pt>
 File: images/lq4.jpg Graphic file (type jpg)
 <use images/lq4.jpg>
-Package luatex.def Info: images/lq4.jpg  used on input line 215.
+Package luatex.def Info: images/lq4.jpg  used on input line 230.
 (luatex.def)             Requested size: 88.78134pt x 118.1547pt.
 
 \openout3 = sample-1.cpt
  (./sample-1.cpt) (./sample-1.cpt) [3<./images/lq0.jpg><./images/lq1.jpg><./imag
 es/lq2.jpg><./images/lq3.jpg><./images/lq4.jpg>]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 273.
-LaTeX Font Info:    Font shape `JT3/simkai(0)/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 277.
 
+Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
+(lipsum)                'english' will be used instead.
+(lipsum)                
+(lipsum)                With LuaTeX, lipsum requires babel to get proper
+(lipsum)                hyphenation (you can use \usepackage[base]{babel}).
+
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 288.
+LaTeX Font Info:    Font shape `JT3/simkai(0)/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 292.
 (./_minted-sample/colorful.pygstyle)
-(./_minted-sample/3419B772248B48BF04B28B716BE4D649CDACA3248109EB9E538011141B177
-833.pygtex
+(./_minted-sample/FEC1A6F964E89659D151597BD6396D05CD1C5557CB5B80A0EC91FE5F729BD
+0F8.pygtex
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
 (load cache: extra_lmmonolt10-bold.luc) [4])
 \openout8 = sample.pyg
 
-(./_minted-sample/E2151B7240973AF2064A5C8D6F17185636EAD8F2AD2EA57110595F250ECF0
-FBC.pygtex)
+(./_minted-sample/E2151B7240973AF2064A5C8D6F171856F35878392C245EBD1BE89888A14A7
+CF3.pygtex)
 LaTeX Font Info:    Font shape `JT3/simsun(0)/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 303.
+(Font)              scaled to size 9.6222pt on input line 318.
 LaTeX Font Info:    Font shape `JY3/simsun(0)/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 303.
-luaotfload | aux : font no 122 (nil) does not define feature vert for script han
+(Font)              scaled to size 9.6222pt on input line 318.
+luaotfload | aux : font no 111 (nil) does not define feature vert for script han
 i with language dflt
-luaotfload | aux : font no 122 (nil) does not define feature vrt2 for script han
+luaotfload | aux : font no 111 (nil) does not define feature vrt2 for script han
 i with language dflt
-\c@pytx@py@default@default@line=\count401
-LaTeX Font Info:    Kanji font shape `JY3/simkai(0)/m/it' undefined
-(Font)              No change on input line 374.
+LaTeX Font Info:    Font shape `JT3/simkai(0)/m/n' will be
+(Font)              scaled to size 14.43329pt on input line 322.
+LaTeX Font Info:    Font shape `JY3/simkai(0)/m/n' will be
+(Font)              scaled to size 14.43329pt on input line 322.
+luaotfload | aux : font no 113 (nil) does not define feature vert for script han
+i with language dflt
+luaotfload | aux : font no 113 (nil) does not define feature vrt2 for script han
+i with language dflt
+\c@pytx@py@default@default@line=\count414
 (load cache: extra_lmroman10-italic.luc)
 LaTeX Font Info:    Kanji font shape `JY3/simkai(0)/m/it' undefined
-(Font)              No change on input line 374.
+(Font)              No change on input line 393.
+LaTeX Font Info:    Kanji font shape `JY3/simkai(0)/m/it' undefined
+(Font)              No change on input line 393.
 
-Overfull \hbox (17.65234pt too wide) in paragraph at lines 376--377
+Overfull \hbox (17.65234pt too wide) in paragraph at lines 395--396
  [][] 
  []
 
 
-Overfull \hbox (30.92708pt too wide) in paragraph at lines 381--382
+Overfull \hbox (30.92708pt too wide) in paragraph at lines 400--401
 \TU/lmr/m/n/10 If you use pythonT[]X, you need to do a man-ual com-pi-la-tion of
  \TU/lmtt/m/n/10 pythontex XX.tex \TU/lmr/m/n/10 be-tween two \TU/lmtt/m/n/10 tx
 s://lualatex\TU/lmr/m/n/10 .
  []
 
-\absvshift=\dimen362
 \absvshift=\dimen363
+\absvshift=\dimen364
 [5] (./parts/part1.tex)
 LaTeX Font Info:    Font shape `JT3/simkai(0)/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 424.
+(Font)              scaled to size 5.77332pt on input line 443.
+LaTeX Font Info:    Kanji font shape `JY3/simkai(0)/m/it' undefined
+(Font)              No change on input line 453.
  (./sample.bbl
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
@@ -1915,48 +1923,49 @@ LaTeX Font Info:    Font shape `JT3/simkai(0)/m/n' will be
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `sample.out' has not changed.
-(rerunfilecheck)             Checksum: BE6A56A049B28BAE1C5BBC4E75CFC161;2013.
+(rerunfilecheck)             Checksum: F77AC4012B2C02FBA5975719E9D41D16;2139.
 runsystem(del sample.pyg)...executed
 )
 
 Here is how much of LuaTeX's memory you used:
- 50993 strings out of 478531
- 477832,2373549 words of node,token memory allocated
- 42432 words of node memory still in use:
-   12 hlist, 2 vlist, 5 rule, 3 glue, 506 kern, 1 glyph, 16297 attribute, 815 gl
-ue_spec, 867 attribute_list, 2 write, 304 user_defined, 2 pdf_action nodes
-   avail lists: 1:41,2:143615,3:3998,4:1766,5:402,6:155,7:12064,8:166,9:1714,10:
-21,11:500,12:2
- 69157 multiletter control sequences out of 65536+600000
- 128 fonts using 93104451 bytes
- 117i,11n,110p,1758b,1034s stack positions out of 5000i,500n,10000p,200000b,80000s
-<d:/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf><d:/te
+ 54199 strings out of 477800
+ 477829,1977958 words of node,token memory allocated
+ 45779 words of node memory still in use:
+   12 hlist, 2 vlist, 5 rule, 3 glue, 571 kern, 1 glyph, 17699 attribute, 827 gl
+ue_spec, 938 attribute_list, 2 write, 308 user_defined, 2 pdf_action nodes
+   avail lists: 1:46,2:146198,3:2662,4:1210,5:196,6:122,7:8335,8:168,9:1167,10:2
+1,11:504,12:2
+ 73130 multiletter control sequences out of 65536+600000
+ 119 fonts using 89055555 bytes
+ 110i,11n,100p,1758b,1062s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf><c:/te
 xlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/Windows/
-Fonts/simsun.ttc><d:/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmonolt10
--bold.otf><d:/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.
-otf><d:/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c
-:/Windows/Fonts/calibri.ttf><./TwemojiMozilla.ttf><d:/texlive/2021/texmf-dist/fo
-nts/opentype/public/lm/lmroman9-regular.otf><d:/texlive/2021/texmf-dist/fonts/op
-entype/public/lm/lmromandemi10-regular.otf><d:/texlive/2021/texmf-dist/fonts/ope
-ntype/public/lm/lmmono10-regular.otf><d:/texlive/2021/texmf-dist/fonts/opentype/
-public/lm/lmroman7-regular.otf><c:/Windows/Fonts/simkai.ttf><d:/texlive/2021/tex
-mf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><d:/texlive/2021/texmf-di
-st/fonts/opentype/public/lm/lmroman10-bold.otf><d:/texlive/2021/texmf-dist/fonts
-/opentype/public/lm/lmroman12-bold.otf><d:/texlive/2021/texmf-dist/fonts/opentyp
-e/public/lm/lmroman12-regular.otf><d:/texlive/2021/texmf-dist/fonts/opentype/pub
-lic/lm/lmroman17-regular.otf><d:/texlive/2021/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmex10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/
-2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2021/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2021/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy7.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/
-symbols/msbm10.pfb>
-Output written on sample.pdf (6 pages, 6793219 bytes).
+Fonts/simsun.ttc><c:/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmonolt10
+-bold.otf><c:/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.
+otf><c:/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c
+:/Windows/Fonts/calibri.ttf><c:/texlive/2021/texmf-dist/fonts/truetype/public/tw
+emoji-colr/TwemojiMozilla.ttf><c:/texlive/2021/texmf-dist/fonts/opentype/public/
+lm/lmroman9-regular.otf><c:/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmr
+omandemi10-regular.otf><c:/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmo
+no10-regular.otf><c:/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman7-r
+egular.otf><c:/Windows/Fonts/simkai.ttf><c:/texlive/2021/texmf-dist/fonts/openty
+pe/public/lm/lmroman10-regular.otf><c:/texlive/2021/texmf-dist/fonts/opentype/pu
+blic/lm/lmroman10-bold.otf><c:/texlive/2021/texmf-dist/fonts/opentype/public/lm/
+lmroman12-bold.otf><c:/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman1
+2-regular.otf><c:/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman17-reg
+ular.otf><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive
+/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
+pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><
+c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on sample.pdf (6 pages, 6802558 bytes).
 
-PDF statistics: 343 PDF objects out of 1000 (max. 8388607)
- 263 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 131072)
+PDF statistics: 349 PDF objects out of 1000 (max. 8388607)
+ 269 compressed objects within 3 object streams
+ 54 named destinations out of 1000 (max. 131072)
  144 words of extra memory for PDF output out of 10000 (max. 100000000)
 

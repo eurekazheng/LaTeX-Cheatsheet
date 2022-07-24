@@ -5,12 +5,12 @@
 \contentsline {section}{\numberline {2}Figures}{3}{section.2}%
 \contentsline {section}{\numberline {3}Tables}{3}{section.3}%
 \contentsline {section}{\numberline {4}Algorithms}{4}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Pseudocode (also showing multi-column \& local fonts)}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}Pseudocode (also showing multi-column \& local western fonts)}{4}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Code}{4}{subsection.4.2}%
 \contentsline {section}{\numberline {5}Fonts}{5}{section.5}%
 \contentsline {subsection}{\numberline {5.1}中文支持}{5}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Emoji}{5}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.2}字体大小（Font size）}{5}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Emoji}{5}{subsection.5.3}%
 \contentsline {section}{\numberline {6}TikZ \& Python}{5}{section.6}%
 \contentsline {section}{\numberline {7}Lua Programming with Domain Examples}{6}{section.7}%
-\contentsline {section}{\numberline {8}Others, Trivials \& General Troubleshooting}{6}{section.8}%
-\contentsline {section}{\numberline {9}Bibliography}{6}{section.9}%
+\contentsline {section}{\numberline {8}List: Others, Trivials \& General Troubleshooting}{6}{section.8}%

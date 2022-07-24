@@ -1,4 +1,4 @@
-%!Tex Program = lualatex
+% !TeX Program = lualatex
 \documentclass[a4paper]{article}
 
 \usepackage{lipsum}
@@ -24,6 +24,7 @@
 \geometry{a4paper, scale=0.8, left=1in, right=1in, top=1in, bottom=1in}
 
 % emoji
+% This requires lualatex, make sure to change your default compiler in TexStudio
 \usepackage{emoji}
 \setemojifont{Twemoji Mozilla}
 %\setemojifont{TwemojiMozilla.ttf}[Path=./]
@@ -87,13 +88,27 @@
 \usepackage{circuitikz}
 
 
-% Math Operator
+% math operators
 \DeclareMathOperator{\arctg}{arctg}
 \renewcommand\x{\mathbf{x}}
 \newcommand\y{\mathbf{y}}
 \newcommand\W{\mathbf{W}}
 \newcommand\R{\mathbb{R}}
 
+% list
+% change item number format
+\renewcommand{\labelenumi}{(\alph{enumi})}
+\renewcommand{\labelitemi}{($\blacksquare$)}
+% for details, visit https://www.overleaf.com/learn/latex/Lists
+\usepackage{enumitem}
+\newenvironment{tight_enumerate}{
+	\begin{enumerate}[topsep=0pt,itemsep=0pt,partopsep=0pt,parsep=0pt,leftmargin=3ex]
+	}{\end{enumerate}}
+
+% final resort for spacing using automatic vspace
+\usepackage{etoolbox}
+\AtBeginEnvironment{figure}{\vspace{-10pt}}
+\AtEndEnvironment{figure}{\vspace{-10pt}}
 
 \title{\LaTeXe{} Cheatsheet}
 \author{Shaoming Zheng}
@@ -263,7 +278,7 @@ Besides, there is a helpful \href{https://www.tablesgenerator.com/}{tool} for cr
 
 \section{Algorithms}
 
-\subsection{Pseudocode (also showing multi-column \& local fonts)}
+\subsection{Pseudocode (also showing multi-column \& local western fonts)}
 
 \begin{multicols}{2}
 If you want a figure to span 2 columns in a two-column document, use star with relative positioning \verb|\begin{table*}[t]|
@@ -292,7 +307,7 @@ If you want a figure to span 2 columns in a two-column document, use star with r
 
 \subsection{Code}
 
-To use \texttt{minted}, you need to add the \texttt{--escape-shell} flag to the \texttt{lualatex} command and install \texttt{pygmentize} for Python. Sometimes, it can't find you \texttt{pygmentize}, you'll need to add your \texttt{pygmentize} to the front of your PATH. Here, we would like to let minted directly import a Python file.
+To use \texttt{minted}, you need to add the \texttt{--escape-shell} flag to the \texttt{lualatex} command and install \texttt{pygmentize} (texttt{conda install pygments}) for Python. Sometimes, it can't find you \texttt{pygmentize}, you'll need to add your \texttt{pygmentize} to the front of your PATH and restart TexStudio. Here, we would like to let minted directly import a Python file.
 \inputminted[linenos]{python}{code/code1.py}
 Otherwise, we can use \verb|\begin{minted}[linos]{python}...\end{minted}| instead. You can also use minted inline: \mintinline{python}{print(x**2)}. You can change the color scheme via \verb|\usemintedstyle{<name>}|, and preview all the available schemes \href{https://pygments.org/styles/}{here}.
 
@@ -300,7 +315,11 @@ Otherwise, we can use \verb|\begin{minted}[linos]{python}...\end{minted}| instea
 
 \subsection{中文支持}
 
-这是（楷体）中文，需要调用\verb|luatexja-fontspec|包并\verb|\setjmainfont(simkai)|。注意\verb|simkai|为字体文件(\verb|simkai.ttf|)名而非字体名(``楷体")。{\song 通过\verb|\newjfontfamily|，也可以局部使用新字体。}更多用法参见\href{https://ctan.math.utah.edu/ctan/tex-archive/macros/luatex/generic/luatexja/doc/luatexja-en.pdf}{luatexja包文档}。\\
+这是（楷体）中文，需要调用\verb|luatexja-fontspec|包并\verb|\setjmainfont(simkai)|。注意\verb|simkai|为字体文件(\verb|simkai.ttf|)名而非字体名(``楷体")。{\song 通过\verb|\newjfontfamily|，也可以局部使用新字体。}更多用法参见\href{https://ctan.math.utah.edu/ctan/tex-archive/macros/luatex/generic/luatexja/doc/luatexja-en.pdf}{luatexja包文档}。
+
+\subsection{字体大小（Font size）}
+% Format is \fontsize{size}{baselineskip}\selectfont
+{\fontsize{15pt}{15pt}\selectfont Numeric font size.}{\large Alias font size.}
 
 \subsection{Emoji}
 For the list of supported emoji aliases, visit \href{https://ctan.math.utah.edu/ctan/tex-archive/macros/luatex/latex/emoji/emoji-doc.pdf}{emoji package docs}. Note that this feature is highly unstable and only (indeterministically) some aliases are supported.
@@ -418,7 +437,7 @@ tp("\\caption{One-phase transformer equivalent circuit (T-circuit)}")
 tp("\\end{figure}")
 }
 
-\section{Others, Trivials \& General Troubleshooting}
+\section{List: Others, Trivials \& General Troubleshooting}
 \noindent
 \input{parts/part1.tex}
 This is a footnote \footnote{foo bar}.\\
@@ -427,12 +446,16 @@ This is a footnote \footnote{foo bar}.\\
 \end{description}
 \begin{itemize}
 \item Sometimes, you need to run \texttt{Build \& View} multiple times for somthing to show.
+\item 
+\begin{tight_enumerate}
 \item Sometimes, you need to delete all intermediate files (the ones recently created) if you're stuck in some error messages. Unfortunately, most \LaTeX error messages are not meaningful in any senses.
 \item Sometimes, the loading order of \LaTeX{} packages are important. Observe the errors carefully to debug.
+\item[\textit{custom label}] Sometimes, restart TeXStudio or the computer works.
+\end{tight_enumerate}
 \end{itemize}
 
-
-\section{Bibliography}
+% Section without numbering
+\section*{Bibliography}
 
 \begin{enumerate}
 \item Put \href{https://www.ctan.org/tex-archive/biblio/bibtex/contrib/IEEEtran/IEEEtran.bst}{IEEEtran.bst} under the current directory.
